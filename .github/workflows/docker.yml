@@ -27,4 +27,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: ghcr.io/sacepefabien/back:latest
+          tags: ghcr.io/aswinty/tp06:latest 
