@@ -26,7 +26,7 @@ jobs:
 
       - name: Build and Push Docker image
         run: |
-          docker buildx build --push --tag ghcr.io/${{ github.repository_owner }}/express-graphql-swapi:latest .
+          docker buildx build --push --tag ghcr.io/asinwty/tp06/frontend:latest .
 
       - name: Cleanup
         run: docker system prune -f
